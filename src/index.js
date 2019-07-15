@@ -9,6 +9,8 @@ import reducers from './reducer'
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom'
 import Auth from './Auth'
 import Dashboard from './Dashboard'
+import './config.js'
+import 'antd-mobile/dist/antd-mobile.css'
 
 
 const store = createStore(reducers, compose(
